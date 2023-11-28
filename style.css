@@ -1,0 +1,92 @@
+/* body */
+body {
+  color: #ffe033 !important;
+  font-family: 'Share Tech Mono', 'Miriam Libre' !important; /*1st is eng, 2nd is heb */
+  font-size:14px !important;
+}
+/* navbar no left margin only on laptop */
+@media (min-width: 720px){
+    .container {
+        margin-left: 0px !important; 
+		    margin-right: 0px !important;
+    }
+}
+/* highlight */
+::selection {
+  background: gray;
+}
+/* text containers (custom) */
+.text-container {
+	border: solid 1px !important;
+	border-color: #ffe033 !important;
+}
+/* bullet points (custom) */
+.list-square {
+	list-style-type: square !important;
+	padding-left: 30px !important;
+	margin-bottom: 0px !important;
+}
+/* links */
+a {
+	color: #ffe033 !important;
+}
+/* icons */
+.bi {
+	color: #ffe033 !important;
+}
+/* nabar padding on non-mobile (custom) */
+@media (min-width: 720px){
+    .nav-padding {
+        margin-right : 10px !important;
+    }
+}
+/* gallery (custom) */
+div.gallery {
+  margin: 5px;
+  border: 1px solid transparent;
+  float: left;
+  width: 175px;
+}
+/* gallery (custom) hover */
+div.gallery:hover {
+  border: 1px solid #ffe033;
+  color: #ffe033;
+}
+/* gallery (custom) img */
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+/* gallery (custom) desc */
+div.desc {
+  padding: 5px;
+  text-align: center;
+  font-size:11px !important;
+}
+/* gallery item (custom) mobile gallery */
+@media (max-width: 576px) {
+	.gallery-item-mobile {
+		width: 148px !important;
+	}
+}
+/* gallery (custom) mobile gallery */
+@media (max-width: 576px) {
+	.gallery-mobile {
+		display:flex; 
+		flex-wrap: wrap; 
+		justify-content: center;
+	}
+}
+/* fursona img padding (custom) laptop */
+@media (min-width: 720px){
+    .fursona-padding {
+        padding-left: 0px !important; 
+    }
+}
+/* link after icon */
+a::after
+{
+  content: " \F1C0";
+  font-family: bootstrap-icons !important;
+  font-size: 11px;
+}
