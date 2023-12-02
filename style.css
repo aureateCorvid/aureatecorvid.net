@@ -90,30 +90,39 @@ a::after
   font-family: bootstrap-icons !important;
   font-size: 11px;
 }
-
-
-
-
-
-
-
-
+/* sidebar-link (custom) */ 
 .sidebar-link {
   text-decoration: none !important;
 }
-
+/* sidebar-link hover (custom) */ 
 .sidebar-link:hover {
   color: black !important;
   background-color:#ffe033 !important;
   padding:2px;
 }
-
+/* sidebar-link active (custom) */ 
 .sidebar-link.active {
   color: black !important;
   background-color:#ffe033 !important;
   padding:2px;
 }
-
+/* sidebar link don't show link icon (custom) */ 
 .sidebar-link::after {
-  display: none;
+  display: none !important;
+}
+/* sidebar desktop don't show on mobile (custom) */ 
+@media (max-width: 576px){
+  .sidebar-desktop {
+      display: none !important;
+  }
+}
+/* sidebar mobile don't show on desktop (custom) */ 
+@media (min-width: 720px){
+  .sidebar-mobile {
+      display: none !important;
+  }
+}
+/* sidebar mobile don't show link icon (custom) */ 
+.sidebar-items-mobile::after {
+  display: none !important;
 }
