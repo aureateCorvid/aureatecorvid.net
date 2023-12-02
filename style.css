@@ -91,13 +91,13 @@ a::after
 .sidebar-link:hover {
   color: black !important;
   background-color:#ffe033 !important;
-  padding:2px;
+  padding:3px;
 }
 /* sidebar-link active (custom) */ 
 .sidebar-link.active {
   color: black !important;
   background-color:#ffe033 !important;
-  padding:2px;
+  padding:3px;
 }
 /* sidebar link don't show link icon (custom) */ 
 .sidebar-link::after {
