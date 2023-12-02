@@ -4,13 +4,6 @@ body {
   font-family: 'Share Tech Mono', 'Miriam Libre' !important; /*1st is eng, 2nd is heb */
   font-size:14px !important;
 }
-/* navbar no left margin only on laptop */
-@media (min-width: 720px){
-    .container {
-        margin-left: 0px !important; 
-		    margin-right: 0px !important;
-    }
-}
 /* highlight */
 ::selection {
   background: gray;
@@ -111,13 +104,13 @@ a::after
   display: none !important;
 }
 /* sidebar desktop don't show on mobile (custom) */ 
-@media (max-width: 576px){
+@media (max-width: 960px){
   .sidebar-desktop {
       display: none !important;
   }
 }
 /* sidebar mobile don't show on desktop (custom) */ 
-@media (min-width: 720px){
+@media (min-width: 960px){
   .sidebar-mobile {
       display: none !important;
   }
@@ -126,3 +119,23 @@ a::after
 .sidebar-items-mobile::after {
   display: none !important;
 }
+/* margin in desktop */
+@media (min-width: 960px){
+  .main-container {
+    margin-left: 16px !important;
+    margin-right: 170px !important;
+  }
+}
+/* margin in mobile + tablet */
+@media (max-width: 960px){
+  .main-container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
