@@ -83,10 +83,37 @@ div.desc {
         padding-left: 0px !important; 
     }
 }
-/* link after icon */
+/* link after icon (custom) */
 a::after
 {
   content: " \F1C0";
   font-family: bootstrap-icons !important;
   font-size: 11px;
+}
+
+
+
+
+
+
+
+
+.sidebar-link {
+  text-decoration: none !important;
+}
+
+.sidebar-link:hover {
+  color: black !important;
+  background-color:#ffe033 !important;
+  padding:2px;
+}
+
+.sidebar-link.active {
+  color: black !important;
+  background-color:#ffe033 !important;
+  padding:2px;
+}
+
+.sidebar-link::after {
+  display: none;
 }
