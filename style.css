@@ -70,6 +70,10 @@ div.desc {
 		justify-content: center;
 	}
 }
+/* gallery img don't show link icon (custom) */ 
+.gallery-no-link::after {
+  display: none !important;
+}
 /* fursona img padding (custom) laptop */
 @media (min-width: 720px){
     .fursona-padding {
