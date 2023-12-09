@@ -6,7 +6,7 @@ body {
 }
 /* highlight */
 ::selection {
-  background: gray;
+  background: #4a4748;
 }
 /* text containers (custom) */
 .text-container {
@@ -147,6 +147,7 @@ p {
 .pagination {
   align-items: center;
   justify-content: center;
+  font-size: 13px;
 }
 /* pagination don't show link icon */ 
 .pagination a::after {
@@ -168,4 +169,18 @@ p {
 .pagination a:hover:not(.active) {
   background-color: #ffe033;
   color: black !important;
+}
+/* firefox scrollbar */ 
+* {
+  scrollbar-color: #4a4748 black !important;
+  scrollbar-width: thin !important;
+}
+/* chrome scrollbar track */ 
+::-webkit-scrollbar {
+  background-color: black !important;
+  width: 8px;
+}
+/* chrome scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #4a4748 !important;
 }
