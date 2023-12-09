@@ -155,9 +155,9 @@ p {
 }
 /* pagination link */ 
 .pagination a {
-  padding: 8px 12px;
-  margin-left: 3px;
-  margin-right: 3px;
+  padding: 6px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-decoration: none;
 }
 /* pagination active bg */ 
@@ -183,4 +183,8 @@ p {
 /* chrome scrollbar thumb */
 ::-webkit-scrollbar-thumb {
   background-color: #4a4748 !important;
+}
+/* work don't show link icon (custom) */ 
+.work-no-link:after {
+  display: none !important;
 }
