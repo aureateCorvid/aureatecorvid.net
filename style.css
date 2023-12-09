@@ -108,13 +108,13 @@ a::after
   display: none !important;
 }
 /* sidebar desktop don't show on mobile (custom) */ 
-@media (max-width: 720px){
+@media (max-width: 960px){
   .sidebar-desktop {
       display: none !important;
   }
 }
 /* sidebar mobile don't show on desktop (custom) */ 
-@media (min-width: 720px){
+@media (min-width: 960px){
   .sidebar-mobile {
       display: none !important;
   }
@@ -124,14 +124,14 @@ a::after
   display: none !important;
 }
 /* margin in desktop */
-@media (min-width: 720px){
+@media (min-width: 960px){
   .main-container {
     margin-left: 16px !important;
     margin-right: 170px !important;
   }
 }
 /* margin in mobile + tablet */
-@media (max-width: 720px){
+@media (max-width: 960px){
   .main-container {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
