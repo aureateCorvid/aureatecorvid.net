@@ -1,6 +1,5 @@
-finish hs fav fics
 finish hs fav art
 finish bl fav art
 finish mha fav fic
-work on guestbook
 get gallery working
+work on guestbook
