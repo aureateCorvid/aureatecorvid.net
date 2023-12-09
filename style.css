@@ -23,10 +23,6 @@ body {
 a {
 	color: #ffe033 !important;
 }
-/* icons */
-.bi {
-	color: #ffe033 !important;
-}
 /* nabar padding on non-mobile (custom) */
 @media (min-width: 720px){
     .nav-padding {
@@ -38,7 +34,7 @@ div.gallery {
   margin: 5px;
   border: 1px solid transparent;
   float: left;
-  width: 175px;
+  width: 163px;
 }
 /* gallery (custom) hover */
 div.gallery:hover {
@@ -70,8 +66,8 @@ div.desc {
 		justify-content: center;
 	}
 }
-/* gallery img don't show link icon (custom) */ 
-.gallery-no-link::after {
+/* gallery img don't show link icon */ 
+.gallery a::after {
   display: none !important;
 }
 /* fursona img padding (custom) laptop */
@@ -146,4 +142,30 @@ a::after
 p {
   font-size: 12px !important;
   margin-bottom: 0px !important;
+}
+/* pagination */ 
+.pagination {
+  align-items: center;
+  justify-content: center;
+}
+/* pagination don't show link icon */ 
+.pagination a::after {
+  display: none !important;
+}
+/* pagination link */ 
+.pagination a {
+  padding: 8px 12px;
+  margin-left: 3px;
+  margin-right: 3px;
+  text-decoration: none;
+}
+/* pagination active bg */ 
+.pagination a.active {
+  background-color: #ffe033;
+  color: black !important;
+}
+/* pagination hover bg */ 
+.pagination a:hover:not(.active) {
+  background-color: #ffe033;
+  color: black !important;
 }
