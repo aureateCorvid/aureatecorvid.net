@@ -188,3 +188,74 @@ p {
 .work-no-link:after {
   display: none !important;
 }
+/* html comment box font family header */ 
+#HCB_comment_box {
+  font-family: 'Share Tech Mono', 'Miriam Libre' !important;
+}
+/* html comment box comment area */ 
+#HCB_comment_box #hcb_form textarea, #HCB_comment_box #hcb_form #hcb_form_name {
+  font-family: 'Share Tech Mono', 'Miriam Libre' !important;
+  border-radius: 0px;
+  background-color: #0b0b0b;
+  border-color: #ffe033;
+  color:#ffe033;
+  box-shadow:none !important; /* no focus highlighting */ 
+}
+/* html comment box font input */ 
+#HCB_comment_box input {
+  font-family: 'Share Tech Mono', 'Miriam Libre' !important;
+}
+/* html comment box link underline */ 
+#HCB_comment_box>a {
+  text-decoration: underline !important;
+}
+/* html comment box credit link underline */ 
+.home-desc>a {
+  text-decoration: underline !important;
+}
+/* html comment box remove rss icon */ 
+#HCB_comment_box>a {
+  display: none !important;
+}
+/* html comment box header size */ 
+#HCB_comment_box>h3 {
+  font-size: 1.25rem;
+}
+/* html comment box button (disabled) */ 
+#HCB_comment_box input[disabled] {
+  background-color: transparent !important;
+  border-color: #000 !important;
+  color: #ffe033 !important;
+  border-radius: 0px;
+  padding-left: 0px;
+}
+/* html comment box button (disabled) hover */ 
+#HCB_comment_box input[disabled]:hover {
+  background-color: #ffe033 !important;
+  color: #000 !important;
+  padding-left: 4px;
+}
+/* html comment box login position */ 
+.admin-link {
+  position:relative; 
+  top:4px;
+  left:7px;
+}
+/* html comment box login link */ 
+.admin-link>a {
+  text-decoration: none;
+}
+/* html comment box login hover */ 
+.admin-link>a:hover {
+  background-color: #ffe033 !important;
+  color: #000 !important;
+  padding: 4px;
+}
+/* html comment box login no link icon */ 
+.admin-link>a::after {
+  display: none;
+}
+/* html comment box header bottom margin */ 
+.hcb-wrapper-half {
+  margin-top: 4px;
+}

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en-US">
+  <!-- head -->
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://aureatecorvid.net/">
+	<meta property="og:title" content="aureateCorvid.net">
+	<meta property="og:description" content="Gallery website. Homestuck, Borderlands, original characters, and a few other things.">
+	<meta property="og:image" content="images/preview.png">
+    <title>aureateCorvid.net</title>
+	<link href="style.css" rel="stylesheet"/>
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<!-- fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Miriam+Libre' rel='stylesheet' type='text/css'> 
+	<script src="https://kit.fontawesome.com/6e88a36714.js" crossorigin="anonymous"></script>
+	<!-- bootstrap v5 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
+  <!-- body -->
+  <body style="background: transparent url(images/bg-pattern.png) repeat top left; background-color: #131313 !important">
+    <!-- start of main container-->
+	<div style="margin-left: auto;margin-right: auto; max-width:1000px">
+	<div class="row no-gutters" style="margin-left: 0px;margin-right: 0px;">
+		<!-- start of sidebar -->
+		<div class="col-lg-3">
+			<!-- sidebar desktop-->
+			<div class="sidebar-desktop" style="position:fixed; width:226px">
+			<h5 class="my-3 p-2" style="background-color: #ffe033; color:#000; text-align: center;">aureateCorvid.net</h5>
+			<ul style="margin-bottom: 0px; padding-left: 15px; list-style-type: '> '">
+				<li><a href="index.html" class="sidebar-link">home</a></li>
+				<li style="list-style-type: '- '">art</li>
+				<ul style="list-style-type: '> '">
+					<li><a href="art/fursona/page/1.html" class="sidebar-link">fursona</a></li>
+					<li><a href="art/original_characters/page/1.html" class="sidebar-link">original characters</a></li>
+					<li><a href="art/homestuck/page/1.html" class="sidebar-link">homestuck</a></li>
+					<li><a href="art/borderlands/page/1.html" class="sidebar-link">borderlands</a></li>
+					<li><a href="art/misc_media/page/1.html" class="sidebar-link">misc. media</a></li>
+				</ul>
+				<li><a href="guestbook.html" class="sidebar-link active">guestbook</a></li>
+			</ul>
+			<!-- avatar -->
+			<img src="images/fursona.png" style="width: 100%; height: auto" class="mt-3">
+			<!-- credits -->
+			<div class="mt-3" style="font-size:11px; text-align:center">
+				<a href="#" target="_blank">Art Tumblr</a> ⬝ <a href="#" target="_blank">Main Tumblr</a>
+				<br><a href="#" target="_blank">RSS Feed</a> ⬝ <a href="#" target="_blank">Contact</a>
+				<br>2023 © aureateCorvid
+			</div>
+			</div>
+			<!-- sidebar desktop end-->
+			<!-- sidebar mobile -->
+			<div class="sidebar-mobile">
+			<a class="sidebar-items-mobile" data-bs-toggle="collapse" href="#collapseSidebarMobile" aria-expanded="false" aria-controls="collapseSidebarMobile"><h5 class="container-fluid my-3 p-2" style="background-color: #ffe033; color:#000; text-align: center; margin-bottom:0px !important">aureateCorvid.net</h5></a>
+			<div class="collapse" id="collapseSidebarMobile" style="margin-top:16px !important">
+			<ul style="margin-bottom: 0px; padding-left: 15px; list-style-type: '> '">
+				<li><a href="index.html" class="sidebar-link">home</a></li>
+				<li style="list-style-type: '- '">art</li>
+				<ul style="list-style-type: '> '">
+					<li><a href="art/fursona/page/1.html" class="sidebar-link">fursona</a></li>
+					<li><a href="art/original_characters/page/1.html" class="sidebar-link">original characters</a></li>
+					<li><a href="art/homestuck/page/1.html" class="sidebar-link">homestuck</a></li>
+					<li><a href="art/borderlands/page/1.html" class="sidebar-link">borderlands</a></li>
+					<li><a href="art/misc_media/page/1.html" class="sidebar-link">misc. media</a></li>
+				</ul>
+				<li><a href="guestbook.html" class="sidebar-link active">guestbook</a></li>
+			</ul>
+			<!-- avatar -->
+			<img src="images/fursona.png" style="width: 100%; height: auto" class="mt-3">
+			<!-- credits -->
+			<div class="mt-3" style="font-size:11px; text-align:center">
+				[Best viewed on desktop]
+				<br><a href="#" target="_blank">Art Tumblr</a> ⬝ <a href="#" target="_blank">Main Tumblr</a>
+				<br><a href="#" target="_blank">RSS Feed</a> ⬝ <a href="#" target="_blank">Contact</a>
+				<br>2023 © aureateCorvid
+			</div>
+			</div>
+			</div>
+			<!-- sidebar mobile end -->
+		</div>
+		<!-- start of main section -->
+		<div class="col-lg mb-3">
+			<!-- guestbook? -->
+			<div class="container-fill text-container p-3 mt-3 mx-md-0">
+			<!-- customize labels of htmlcommentbox.com -->
+			<script>
+			/* This code goes ABOVE the main HTML Comment Box code!
+			replace the text in the single quotes below to customize labels.*/
+			hcb_user = {
+				/* L10N */
+				comments_header : '// Guestbook',
+				name_label : 'Alias',
+				content_label: 'Enter your comment here.',
+				submit : 'Submit',
+				logout_link : '<img title="Log Out" src="" alt="logout" class="hcb-icon hcb-door-out"/>',
+				admin_link : '<img src="" alt="Login" class="hcb-icon hcb-door-in"/>',
+				no_comments_msg: 'No one has commented yet. Be the first!',
+				add:'Add your comment',
+				again: 'Post another comment',
+				rss:'<img src="" class="hcb-icon" alt="RSS"/>',
+				said:'said:',
+				prev_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
+				next_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
+				showing:'Showing',
+				to:'to',
+				website_label:'website (optional)',
+				email_label:'email',
+				anonymous:'Anonymous',
+				mod_label:'(webmaster)',
+				subscribe:'Email Me Replies',
+				add_image:'Add Image',
+				are_you_sure:'Do you want to flag this comment as inappropriate?',
+			
+				reply:'Reply',
+				flag:'',
+				like:'Like',
+			
+				/* dates */
+				days_ago:'days ago',
+				hours_ago:'hours ago',
+				minutes_ago:'minutes ago',
+				within_the_last_minute:'within the last minute',
+			
+				msg_thankyou:'Thank you for commenting!',
+				msg_approval:'NOTE: This comment is not published until approved',
+				msg_approval_required:'Thank you for commenting! Your comment will appear once approved by the webmaster.',
+			
+				err_bad_html:'Your comment contained bad html.',
+				err_bad_email:'Please enter a valid email address.',
+				err_too_frequent:'You must wait a few seconds between posting comments.',
+				err_comment_empty:'Your comment was not posted because it was empty!',
+				err_denied:'Your comment was not accepted.',
+				err_unknown:'Your comment was blocked for unknown reasons, please report this.',
+				err_spam:'Your comment was detected as spam.',
+				err_blocked:'Your comment was blocked by site policy.',
+			
+				/* SETTINGS */
+				MAX_CHARS: 8192,
+				PAGE:'', /* ID of the webpage to show comments for. defaults to the webpage the user is currently visiting. */
+				ON_COMMENT: function(){}, /* Function to call after commenting. */
+				RELATIVE_DATES:true /* show dates in the form "X hours ago." etc. */
+			};
+			</script>
+			<!-- done customizing labels of htmlcommentbox.com -->
+			<!-- begin wwww.htmlcommentbox.com -->
+			<div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
+			<link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+			<script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24YEBarf6Ea9XE6tN%2F3.i.z."+"&opts=16798&num=10&ts=1703248352267");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); </script>
+			<!-- end www.htmlcommentbox.com -->
+			</div>
+		</div>
+		<!-- end of main section -->
+	</div>
+	<!-- end of main container -->
+	</div>
+	<!-- bootstrap javascript v5 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
