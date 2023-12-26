@@ -262,6 +262,6 @@ p {
 /* fix sidebar width depending on screen size (custom) */ 
 @media (min-width: 720px){
   .sidebar {
-    width:226px !important;
+    width:250px !important;
   }
 }
