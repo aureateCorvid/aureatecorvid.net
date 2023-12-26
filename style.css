@@ -104,13 +104,13 @@ a::after
   display: none !important;
 }
 /* sidebar desktop don't show on mobile (custom) */ 
-@media (max-width: 960px){
+@media (max-width: 720px){
   .sidebar-desktop {
       display: none !important;
   }
 }
 /* sidebar mobile don't show on desktop (custom) */ 
-@media (min-width: 960px){
+@media (min-width: 720px){
   .sidebar-mobile {
       display: none !important;
   }
@@ -120,7 +120,7 @@ a::after
   display: none !important;
 }
 /* margin in desktop */
-@media (min-width: 960px){
+@media (min-width: 720px){
   .main-container {
     margin-left: 16px !important;
     margin-right: 170px !important;
@@ -258,4 +258,10 @@ p {
 /* html comment box header bottom margin */ 
 .hcb-wrapper-half {
   margin-top: 4px;
+}
+/* fix sidebar width depending on screen size (custom) */ 
+@media (min-width: 720px){
+  .sidebar {
+    width:226px !important;
+  }
 }
