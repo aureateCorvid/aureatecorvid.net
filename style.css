@@ -53,9 +53,15 @@ div.desc {
   font-size:11px !important;
 }
 /* gallery item (custom) mobile gallery */
-@media (max-width: 576px) {
+@media (max-width: 960px) {
 	.gallery-item-mobile {
-		width: 148px !important;
+		width: 150px !important;
+	}
+}
+/* gallery item (custom) mobile tiny gallery */
+@media (max-width: 376px) {
+	.gallery-item-mobile-tiny {
+		width: 145px !important;
 	}
 }
 /* gallery (custom) mobile gallery */
