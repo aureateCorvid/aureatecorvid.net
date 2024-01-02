@@ -1,6 +1,6 @@
 /* body */
 body {
-  color: #FFDF00 !important;
+  color: #ffe033 !important;
   font-family: 'Share Tech Mono', 'Miriam Libre' !important; /*1st is eng, 2nd is heb */
   font-size:14px !important;
 }
@@ -11,7 +11,7 @@ body {
 /* text containers (custom) */
 .text-container {
 	border: solid 1px !important;
-	border-color: #FFDF00 !important;
+	border-color: #ffe033 !important;
 }
 /* bullet points (custom) */
 .list-square {
@@ -21,7 +21,7 @@ body {
 }
 /* links */
 a {
-	color: #FFDF00 !important;
+	color: #ffe033 !important;
 }
 /* nabar padding on non-mobile (custom) */
 @media (min-width: 720px){
@@ -38,8 +38,8 @@ div.gallery {
 }
 /* gallery (custom) hover */
 div.gallery:hover {
-  border: 1px solid #FFDF00;
-  color: #FFDF00;
+  border: 1px solid #ffe033;
+  color: #ffe033;
 }
 /* gallery (custom) img */
 div.gallery img {
@@ -96,13 +96,13 @@ a::after
 /* sidebar-link hover (custom) */ 
 .sidebar-link:hover {
   color: black !important;
-  background-color:#FFDF00 !important;
+  background-color:#ffe033 !important;
   padding:4px;
 }
 /* sidebar-link active (custom) */ 
 .sidebar-link.active {
   color: black !important;
-  background-color:#FFDF00 !important;
+  background-color:#ffe033 !important;
   padding:4px;
 }
 /* sidebar link don't show link icon (custom) */ 
@@ -168,12 +168,12 @@ p {
 }
 /* pagination active bg */ 
 .pagination a.active {
-  background-color: #FFDF00;
+  background-color: #ffe033;
   color: black !important;
 }
 /* pagination hover bg */ 
 .pagination a:hover:not(.active) {
-  background-color: #FFDF00;
+  background-color: #ffe033;
   color: black !important;
 }
 /* firefox scrollbar */ 
@@ -203,8 +203,8 @@ p {
   font-family: 'Share Tech Mono', 'Miriam Libre' !important;
   border-radius: 0px;
   background-color: #0b0b0b;
-  border-color: #FFDF00;
-  color:#FFDF00;
+  border-color: #ffe033;
+  color:#ffe033;
   box-shadow:none !important; /* no focus highlighting */ 
 }
 /* html comment box font input */ 
@@ -231,13 +231,13 @@ p {
 #HCB_comment_box input[disabled] {
   background-color: transparent !important;
   border-color: #000 !important;
-  color: #FFDF00 !important;
+  color: #ffe033 !important;
   border-radius: 0px;
   padding-left: 0px;
 }
 /* html comment box button (disabled) hover */ 
 #HCB_comment_box input[disabled]:hover {
-  background-color: #FFDF00 !important;
+  background-color: #ffe033 !important;
   color: #000 !important;
   padding-left: 4px;
 }
@@ -253,7 +253,7 @@ p {
 }
 /* html comment box login hover */ 
 .admin-link>a:hover {
-  background-color: #FFDF00 !important;
+  background-color: #ffe033 !important;
   color: #000 !important;
   padding: 4px;
 }
